@@ -35,37 +35,26 @@
 
   <header id="top" class="header-home">
 
-    <!-- Navigation Desctop -->
+    <!-- Navigation Desktop -->
 
-    <nav class="navbar-desctop visible-md visible-lg" style="padding: 2.9vmin 0 0;background: #000;">
+    <nav class="navbar-desctop visible-md visible-lg" style="padding: 1.5em 0;background: rgba(0,0,0,0.9);">
       <div class="container">
-        <a href="#top" class="brand js-target-scroll">
-          <img class="brand-logo-sm lv-nav-logo" src="assets/img/la-vista-logo.png" alt="La Vista Goa"/>
+        <a href="/" class="brand js-target-scroll">
+          <img class="brand-logo-sm lv-nav-logo" src="assets/img/la-vista-logo.png" alt="La Vista Goa" style="height: 50px;"/>
         </a>
-        <ul class="nav navbar-desctop-menu" style="padding-top: 1rem">
+        <ul class="nav navbar-desctop-menu" style="padding-top: 0.5rem">
           <li>
             <a href="/">Home</a>
           </li>
           <li>
-            <a href="#about">About</a>
+            <a href="#">Projects <i class="fa fa-angle-down"></i></a>
+            <ul>
+              <li><a href="/the-leaf">The Leaf</a></li>
+              <li><a href="/la-vista-goa">La Vista Goa</a></li>
+            </ul>
           </li>
           <li>
-            <a href="#gallery">Gallery</a>
-          </li>
-          <li>
-            <a href="#highlights">Highlights</a>
-          </li>
-          <li>
-            <a href="#day">Day Plan</a>
-          </li>
-          <li>
-            <a href="#amenities">Amenities</a>
-          </li>
-          <li>
-            <a href="#location">Location</a>
-          </li>
-          <li>
-            <a href="#contacts">Contacts</a>
+            <a href="#contacts">Contact</a>
           </li>
         </ul>
       </div>
@@ -74,8 +63,8 @@
     <!-- Navigation Mobile -->
 
     <nav class="nav navbar-mobile bg-black" style="background: #000">
-      <a href="#top" class="brand js-target-scroll">
-        <img class="brand-logo-sm lv-nav-logo" src="assets/img/la-vista-logo.png" alt="La Vista Goa"/>
+      <a href="/" class="brand js-target-scroll">
+        <img class="brand-logo-sm lv-nav-logo" src="assets/img/la-vista-logo.png" alt="La Vista Goa" style="height: 40px;"/>
       </a>
 
       <!-- Navbar Collapse -->
@@ -89,29 +78,18 @@
 
       <div class="collapse navbar-collapse" id="navbar-mobile">
         <ul class="navbar-nav-mobile">
-          <li class="active">
+          <li>
             <a href="/">Home</a>
           </li>
           <li>
-            <a href="#about">About</a>
+            <a href="#">Projects <i class="fa fa-angle-down"></i></a>
+            <ul>
+              <li><a href="/the-leaf">The Leaf</a></li>
+              <li><a href="/la-vista-goa">La Vista Goa</a></li>
+            </ul>
           </li>
           <li>
-            <a href="#gallery">Gallery</a>
-          </li>
-          <li>
-            <a href="#highlights">Highlights</a>
-          </li>
-          <li>
-            <a href="#day">Day Plan</a>
-          </li>
-          <li>
-            <a href="#amenities">Amenities</a>
-          </li>
-          <li>
-            <a href="#location">Location</a>
-          </li>
-          <li>
-            <a href="#contacts">Contacts</a>
+            <a href="#contacts">Contact</a>
           </li>
         </ul>
       </div>

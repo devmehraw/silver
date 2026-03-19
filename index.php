@@ -8,9 +8,9 @@
 
     <!-- Home -->
 
-    <main class="main">
-      <div class="arrow-left"></div>
-      <div class="arrow-right"></div>
+    <main class="main slider-simple">
+      <div class="arrow-left slider-arrow-left"><i class="fa fa-chevron-left"></i></div>
+      <div class="arrow-right slider-arrow-right"><i class="fa fa-chevron-right"></i></div>
 
       <!-- Start revolution slider -->
 

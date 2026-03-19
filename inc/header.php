@@ -30,63 +30,28 @@
 
   <!-- Header -->
 
-  <header id="top" class="header-home">
-    <div class="brand-panel">
-      <a href="#top" class="brand js-target-scroll">
-        <img class="brand-logo" src="assets/img/logo.png" />
-      </a>
-      <div class="brand-name">SilverLining</div>
-      <div class="slide-number">
-        <span class="current-number text-primary">0<span class="count">1</span></span>
-        <sup><span class="delimiter">/</span> 0<span class="total-count"></span></sup>
-      </div>
-    </div>
-    <div class="header-phone"></div>
-    <div class="vertical-panel"></div>
-    <div class="vertical-panel-content">
-      <div class="vertical-panel-info">
-        <div class="vertical-panel-title">Architecture buro</div>
-        <div class="line"></div>
-      </div>
-      <ul class="social-list">
-        <li><a href="" class="fa fa-instagram"></a></li>
-        <li><a href="" class="fa fa-twitter"></a></li>
-        <li><a href="" class="fa fa-behance"></a></li>
-        <li><a href="" class="fa fa-facebook"></a></li>
-      </ul>
-    </div>
+  <header id="top" class="header-home header-simple">
 
-    <!-- Navigation Desctop -->
+    <!-- Navigation Desktop -->
 
     <nav class="navbar-desctop visible-md visible-lg">
       <div class="container">
-        <a href="#top" class="brand js-target-scroll">
-          <!-- <img class="brand-logo-sm" src="assets/img/logo-bg.png" /> -->
+        <a href="/" class="brand js-target-scroll">
+          <img class="brand-logo-sm" src="assets/img/logo.png" style="height: 50px;" />
         </a>
         <ul class="nav navbar-desctop-menu">
           <li>
-            <a href="#top">Home</a>
+            <a href="/">Home</a>
           </li>
           <li>
-            <a href="/the-leaf">The Leaf</a>
+            <a href="#">Projects <i class="fa fa-angle-down"></i></a>
+            <ul>
+              <li><a href="/the-leaf">The Leaf</a></li>
+              <li><a href="/la-vista-goa">La Vista Goa</a></li>
+            </ul>
           </li>
           <li>
-            <a href="/la-vista-goa">La Vista Goa</a>
-          </li>
-          <li>
-            <a href="#about">About</a>
-          </li>
-          <li>
-            <a href="#projects">Gallery</a>
-          </li>
-          <li>
-            <a href="#services">Services</a>
-          </li>
-          <li>
-            <a href="#location">Location</a>
-          </li>
-          <li>
-            <a href="#contacts">Contacts</a>
+            <a href="#contacts">Contact</a>
           </li>
         </ul>
       </div>
@@ -95,8 +60,8 @@
     <!-- Navigation Mobile -->
 
     <nav class="nav navbar-mobile">
-      <a href="#top" class="brand js-target-scroll">
-        <img class="brand-logo-sm" src="assets/img/logo-bg.png" />
+      <a href="/" class="brand js-target-scroll">
+        <img class="brand-logo-sm" src="assets/img/logo.png" style="height: 40px;" />
       </a>
 
       <!-- Navbar Collapse -->
@@ -111,28 +76,17 @@
       <div class="collapse navbar-collapse" id="navbar-mobile">
         <ul class="navbar-nav-mobile">
           <li class="active">
-            <a href="#top">Home</a>
+            <a href="/">Home</a>
           </li>
           <li>
-            <a href="/the-leaf">The Leaf</a>
+            <a href="#">Projects <i class="fa fa-angle-down"></i></a>
+            <ul>
+              <li><a href="/the-leaf">The Leaf</a></li>
+              <li><a href="/la-vista-goa">La Vista Goa</a></li>
+            </ul>
           </li>
           <li>
-            <a href="/la-vista-goa">La Vista Goa</a>
-          </li>
-          <li>
-            <a href="#about">About</a>
-          </li>
-          <li>
-            <a href="#projects">Gallery</a>
-          </li>
-          <li>
-            <a href="#services">Services</a>
-          </li>
-          <li>
-            <a href="#location">Location</a>
-          </li>
-          <li>
-            <a href="#contacts">Contacts</a>
+            <a href="#contacts">Contact</a>
           </li>
         </ul>
       </div>
